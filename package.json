@@ -1,26 +1,58 @@
 {
-  "name": "proxy-marbo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "fec-airbnb-calendar",
+  "version": "",
+  "description": "Airbnb Booking Component",
+  "author": "Marbo Cheng-Ye",
+  "license": "",
+  "engines": {
+    "node": ">=6.13.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server/server.js",
+    "react-dev": "webpack -d --watch",
+    "seed": "node database/seeder.js",
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fec-hipcamp-but-for-houses/proxy-marbo.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fec-hipcamp-but-for-houses/proxy-marbo/issues"
-  },
-  "homepage": "https://github.com/fec-hipcamp-but-for-houses/proxy-marbo#readme",
   "dependencies": {
+    "@babel/runtime": "^7.4.5",
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "nodemon": "^1.19.1",
-    "request": "^2.88.0"
+    "express": "^4.16.4",
+    "faker": "^4.1.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.9",
+    "puppeteer": "^1.16.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^2.1.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.8.0",
+    "style-loader": "^0.23.1",
+    "superagent": "^5.0.5",
+    "supertest": "^4.0.2",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
   }
 }
