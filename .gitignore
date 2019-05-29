@@ -6,3 +6,6 @@ modules
 
 #bundle
 bundle.js
+
+#package-lock.json
+package-lock.json
