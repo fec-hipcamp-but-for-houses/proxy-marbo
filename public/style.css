@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'main main main main right right';
+    grid-gap: 10px;
+}
+
+.header{
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+    display: block;
+    margin: auto;
+    
+}
+
+.right{
+    grid-area: right;
+}
+
+.leftpadding{
+    padding-left:25px;
+}
