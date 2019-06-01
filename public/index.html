@@ -2,19 +2,42 @@
 <header>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script crossorigin src ="https://cdnjs.cloudflare.com/ajax/libs/styled-components/4.2.1/styled-components.min.js"></script>
 </header>
 <body>
     <div class="grid-container"> 
-    <div class="header" id="photoApp"></div>
+    <div class="header" id="photos"></div>
     <div class="right" id="bookingApp"></div>
     <div class="main">
-        <div class="leftpadding" id="calendarApp"></div>
-        <div id="reviewApp"></div>
+        <div id="general"></div>
+        <div class="leftpadding" id="calendar"></div>
+        <div id="reviews"></div>
+        <div id="neighborhood"></div>
     </div>
     
 
     </div>
     
-    <script src="bundle.js"></script>
+    <script src="http://ec2-18-219-161-100.us-east-2.compute.amazonaws.com/bundle.js"></script>
+    <!--Scott photo calendar div= app-->
+    <!-- <script src="http://ec2-3-18-212-71.us-east-2.compute.amazonaws.com/bundle.js"></script> -->
+    <script src="http://ec2-13-52-103-16.us-west-1.compute.amazonaws.com/bundle.js"></script>
+    <!--Brian module-->
+    <!-- http://ec2-13-57-27-127.us-west-1.compute.amazonaws.com/bundle.js" id=neighborhood -->
+    <script src="http://ec2-13-57-27-127.us-west-1.compute.amazonaws.com/bundle.js"></script>
+    <!-- http://ec2-3-18-212-71.us-east-2.compute.amazonaws.com/bundle.js id=general -->
+    <script src="http://ec2-3-18-212-71.us-east-2.compute.amazonaws.com/bundle.js"></script>
+    <!-- http://ec2-54-219-137-95.us-west-1.compute.amazonaws.com/bundle.js id= reviews -->
+    <script src="http://ec2-54-219-137-95.us-west-1.compute.amazonaws.com/bundle.js"></script>
+
+
+
+    <!--Vinh booking-->
+    <script src="http://ec2-18-188-197-64.us-east-2.compute.amazonaws.com/bundle.js"></script>
+
+
+  
 </body>
 </html>
